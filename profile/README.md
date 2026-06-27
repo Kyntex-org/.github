@@ -15,4 +15,4 @@ Created and maintained by [Ben Harris](https://github.com/BenHarris11).
 
 Kyntex is currently in development. Some repositories may remain private while active work is ongoing.
 
-Kyntex is an early-stage prototype and is not a medical device.
+// Kyntex is still a prototype and is not a medical device. //
