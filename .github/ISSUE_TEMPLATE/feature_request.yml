@@ -1,0 +1,42 @@
+name: Feature request
+description: Suggest a focused improvement to a Kyntex project
+title: "[Feature]: "
+body:
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Firmware
+        - Web dashboard
+        - iOS app
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: need
+    attributes:
+      label: User or engineering need
+      description: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: Describe the desired behavior and important tradeoffs.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation
+      description: How could the improvement be tested or measured?
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope check
+      options:
+        - label: This request does not make an unsupported medical or clinical claim.
+          required: true

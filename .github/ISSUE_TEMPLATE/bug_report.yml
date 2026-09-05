@@ -1,0 +1,57 @@
+name: Bug report
+description: Report a reproducible problem in a Kyntex project
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping improve Kyntex. Do not include credentials,
+        private recordings, health information, or security-sensitive details.
+  - type: dropdown
+    id: component
+    attributes:
+      label: Component
+      options:
+        - Firmware
+        - Web dashboard
+        - iOS app
+        - Documentation
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Problem
+      description: Describe what happened and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. Start with...
+        2. Perform...
+        3. Observe...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: Include the app, firmware, or commit version when known.
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Hardware, operating system, browser, or toolchain information.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched for an existing report.
+          required: true
+        - label: I removed private and security-sensitive information.
+          required: true
