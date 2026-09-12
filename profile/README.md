@@ -13,6 +13,10 @@ Low Energy telemetry, and companion applications for the web and iOS. The
 engineering work emphasizes reliable data capture, explainable metrics, and a
 path from development hardware toward a production-ready embedded platform.
 
+The project is led by Ben Harris, Kyntex co-founder and technical lead. Public
+materials are organized for engineering review while production firmware,
+calibration details, and sensitive hardware data remain private.
+
 Longer-term research may investigate tendon-response measurements. That work is
 experimental and is not a capability of the current prototype.
 
@@ -27,9 +31,18 @@ experimental and is not a capability of the current prototype.
 ## Repositories
 
 - [**Kyntex**](https://github.com/Kyntex-org/Kyntex) — product overview,
-  system architecture, and development roadmap
+  system architecture, hardware documentation, and development roadmap
 - [**Kyntex Technical Public**](https://github.com/Kyntex-org/Kyntex-Technical-Public)
   — interactive software portfolio and hardware-free dashboard demonstration
+
+## Hardware portfolio
+
+Kyntex includes a fabricated custom NINA-B302/nRF52 PCB. Initial bring-up has
+verified power and J-Link/SWD access, while several sensor interfaces remain in
+active debugging. Review the public
+[hardware design documentation](https://github.com/Kyntex-org/Kyntex/blob/main/docs/hardware/README.md)
+or the
+[Altium documentation workspace](https://github.com/Kyntex-org/Kyntex/blob/main/docs/hardware/altium/README.md).
 
 Active production work is maintained privately while it is under development.
 Public repositories contain deliberately selected, non-proprietary material.
