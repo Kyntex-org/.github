@@ -1,23 +1,28 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kyntex-org/Kyntex/main/assets/logo/Kytex%20Logo.png" alt="Kyntex — Wearable Sensing Technology" width="760">
+  <img src="https://raw.githubusercontent.com/Kyntex-org/Kyntex/main/assets/logo/Kyntex%20Logo.png" alt="Kyntex — Wearable Sensing Technology" width="760">
 </p>
 
-Kyntex is an independent wearable-sensing project exploring how embedded
-systems and long-session motion data can give athletes clearer feedback about
-training activity and device fit.
+Kyntex is an independent wearable-sensing project built on one conviction:
+training data is only worth showing if it can be trusted. Most wearables render
+attractive charts without answering whether the device was fitted correctly, or
+whether the session was captured without silent data loss. Kyntex is engineered
+from the sensor up to answer both.
 
-## What we are building
+## What Kyntex is
 
-The current prototype combines motion sensing, band-fit monitoring, Bluetooth
-Low Energy telemetry, and companion applications for the web and iOS. The
-engineering work emphasizes reliable data capture, explainable metrics, and a
-path from development hardware toward a production-ready embedded platform.
+A working, end-to-end wearable system: Nordic nRF54L15 firmware on Zephyr RTOS,
+a custom versioned BLE protocol carrying recording-integrity metadata, and two
+companion applications — a native SwiftUI iOS app and a dependency-free Web
+Bluetooth dashboard. The prototype senses motion and band fit, classifies
+activity on-device, and preserves long sessions durably for later analysis.
 
-The project is led by Ben Harris, Kyntex co-founder and technical lead. Public
-materials are organized for engineering review while production firmware,
-calibration details, and sensitive hardware data remain private.
+Engineered by [Ben Harris](https://github.com/BenHarris11), co-founder and sole
+engineer — firmware, protocol, applications, and custom PCB design. Public
+materials are organized for engineering review, while production firmware,
+calibration values, and sensitive hardware data remain private.
 
-Longer-term research may investigate tendon-response measurements. That work is
+The longer-term research direction is tendon-response sensing: using the band to
+say something useful about tissue behavior, not just body movement. That work is
 experimental and is not a capability of the current prototype.
 
 ## Engineering focus
@@ -37,9 +42,9 @@ experimental and is not a capability of the current prototype.
 
 ## Hardware portfolio
 
-Kyntex includes a fabricated custom NINA-B302/nRF52 PCB. Initial bring-up has
-verified power and J-Link/SWD access, while several sensor interfaces remain in
-active debugging. Review the public
+Kyntex includes a fabricated custom NINA-B302/nRF52 PCB, designed in KiCad and
+Altium. Initial bring-up has verified power and J-Link/SWD access, while several
+sensor interfaces remain in active debugging. Review the public
 [hardware design documentation](https://github.com/Kyntex-org/Kyntex/blob/main/docs/hardware/README.md)
 or the
 [Altium documentation workspace](https://github.com/Kyntex-org/Kyntex/blob/main/docs/hardware/altium/README.md).
@@ -49,7 +54,12 @@ Public repositories contain deliberately selected, non-proprietary material.
 
 ## Project status
 
-Kyntex is an engineering prototype, not a medical device. It is not intended to
-diagnose, treat, prevent, or predict injury.
+Kyntex is an active engineering prototype being driven toward a real product.
+The software stack works end to end today; hardware validation, secure firmware
+updates, and multi-subject metric validation are tracked as open work rather
+than implied to be finished.
+
+Kyntex is not a medical device and is not intended to diagnose, treat, prevent,
+or predict injury.
 
 Created and maintained by [Ben Harris](https://github.com/BenHarris11).
