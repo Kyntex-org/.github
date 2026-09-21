@@ -30,7 +30,8 @@ experimental and is not a capability of the current prototype.
 - Nordic nRF54L15 firmware using nRF Connect SDK and Zephyr
 - versioned BLE telemetry with recording-integrity metadata
 - durable, bounded storage for long training sessions
-- native SwiftUI and dependency-free web applications
+- native SwiftUI, ActivityKit, CoreBluetooth, and dependency-free web applications
+- guided personal calibration with separate motion and landing-impact load
 - responsible separation between engineering metrics and medical claims
 
 ## Repositories
@@ -38,7 +39,18 @@ experimental and is not a capability of the current prototype.
 - [**Kyntex**](https://github.com/Kyntex-org/Kyntex) — product overview,
   system architecture, hardware documentation, and development roadmap
 - [**Kyntex Technical Public**](https://github.com/Kyntex-org/Kyntex-Technical-Public)
-  — interactive software portfolio and hardware-free dashboard demonstration
+  — tested embedded-C portfolio, hardware-free dashboard demonstration,
+  [system architecture](https://github.com/Kyntex-org/Kyntex-Technical-Public/blob/main/docs/system-architecture.md),
+  and [iOS companion case study](https://github.com/Kyntex-org/Kyntex-Technical-Public/blob/main/docs/ios-companion.md)
+
+## Current companion experience
+
+The native iOS prototype includes guided band setup and personal calibration,
+an animated movement companion, lock-screen/Dynamic Island Live Activity,
+pause and recap screens, and session, weekly, and lifetime history. Its Knee
+Load presentation separates accumulated Motion Load from landing Impact Load
+and clearly identifies the result as an individualized training proxy rather
+than a direct measurement of joint force or injury risk.
 
 ## Hardware portfolio
 
