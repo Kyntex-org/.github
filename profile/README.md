@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Kyntex-org/Kyntex/main/assets/logo/Kyntex%20Logo.png" alt="Kyntex — Wearable Sensing Technology" width="760">
+  <img src="https://raw.githubusercontent.com/Kyntex-org/.github/main/profile/assets/kyntex-logo.jpg" alt="Kyntex" width="720">
 </p>
 
 Kyntex is an independent wearable-sensing project built on one conviction:
@@ -45,12 +45,14 @@ experimental and is not a capability of the current prototype.
 
 ## Current companion experience
 
-The native iOS prototype includes guided band setup and personal calibration,
-an animated movement companion, lock-screen/Dynamic Island Live Activity,
-pause and recap screens, and session, weekly, and lifetime history. Its Knee
-Load presentation separates accumulated Motion Load from landing Impact Load
-and clearly identifies the result as an individualized training proxy rather
-than a direct measurement of joint force or injury risk.
+The native iOS prototype uses a restrained black, white, and blue interface
+centered on the new Kyntex mark. It provides a useful movement and impact
+summary from the first recorded session, then adds personal-baseline context
+after enough quality sessions are available. The app includes guided setup and
+personal calibration, automatic session capture, visible band battery and fit,
+lock-screen/Dynamic Island Live Activity, session recaps, and longer-term
+history. Knee Load and Impact Exposure are presented as training proxies rather
+than direct measurements of joint force or injury risk.
 
 ## Hardware portfolio
 
@@ -67,9 +69,9 @@ Public repositories contain deliberately selected, non-proprietary material.
 ## Project status
 
 Kyntex is an active engineering prototype being driven toward a real product.
-The software stack works end to end today; hardware validation, secure firmware
-updates, and multi-subject metric validation are tracked as open work rather
-than implied to be finished.
+The software stack works end to end today, including signed Bluetooth firmware
+updates. Hardware refinement and multi-subject metric validation remain active
+work and are documented as such rather than implied to be finished.
 
 Kyntex is not a medical device and is not intended to diagnose, treat, prevent,
 or predict injury.
