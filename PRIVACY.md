@@ -1,6 +1,6 @@
 # Kyntex Privacy Policy
 
-Effective date: September 22, 2026
+Effective date: October 1, 2026
 
 Kyntex is designed as a local-first companion for the Kyntex Band. The Kyntex
 iOS app does not require an account and does not upload workout information to
@@ -31,6 +31,23 @@ diagnostic information under Apple's own privacy policies.
 The app uses Bluetooth to discover, connect to, configure, and receive workout
 telemetry from a nearby Kyntex Band. Bluetooth data is processed on the user's
 device for the app's core functionality.
+
+## Firmware update service
+
+When the app checks for firmware updates—automatically after reading a connected
+band's device information or when the user requests a check in Settings—it
+requests a public update manifest hosted by GitHub. If the user chooses to
+install an available update, the app also downloads that firmware file from the
+GitHub-hosted Kyntex release service. These requests do not include workout
+summaries, recordings, athlete profiles, calibration values, or the connected
+band's identifier. The updater does not send this information to Kyntex.
+
+As with any internet request, GitHub may receive and process standard connection
+information, such as an IP address and request time, under the
+[GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+In the current iOS app source, firmware checks and downloads are the only
+first-party network feature. Kyntex does not use them for advertising or
+cross-app tracking.
 
 ## Sharing and deletion
 
