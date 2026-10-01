@@ -1,6 +1,6 @@
 # Kyntex Privacy Policy
 
-Effective date: September 22, 2026
+Effective date: October 1, 2026
 
 Kyntex is designed as a local-first companion for the Kyntex Band. The Kyntex
 iOS app does not require an account and does not upload workout information to
@@ -60,6 +60,7 @@ effective date above identifies the current version.
 
 ## Contact
 
-For support and privacy questions, follow the private-contact guidance in the
-[Kyntex support policy](SUPPORT.md). Do not post private recordings, health
-information, or security-sensitive device details in a public issue.
+For support and privacy questions, email
+[kyntexsupport@gmail.com](mailto:kyntexsupport@gmail.com). Do not post private
+recordings, health information, or security-sensitive device details in a
+public issue or include them in email.
