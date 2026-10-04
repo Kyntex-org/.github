@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Kyntex-org/.github/main/profile/assets/kyntex-logo.jpg" alt="Kyntex" width="720">
-</p>
+<h1 align="center">Kyntex</h1>
 
 Kyntex is an independent wearable-sensing project built on one conviction:
 training data is only worth showing if it can be trusted. Most wearables render
