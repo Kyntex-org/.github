@@ -54,6 +54,21 @@ lock-screen/Dynamic Island Live Activity, session recaps, and longer-term
 history. Knee Load and Impact Exposure are presented as training proxies rather
 than direct measurements of joint force or injury risk.
 
+## Current software milestone — October 3, 2026
+
+Launch-readiness changes are integrated: durable workout saving and deletion,
+safer firmware-update coordination, accessibility improvements, isolated sample
+workouts, and third-party notices. Active companion support is nRF54 telemetry
+V3–V5; Arduino/nRF52840 telemetry is retired and preserved as historical work.
+The current iOS experience is local-first and requires no Kyntex account.
+
+Mac validation was reported successful; coordinator Linux sanitizer, contract,
+real-board development build, and 43 firmware emulator cases passed. See the
+[validation summary](https://github.com/Kyntex-org/Kyntex-Technical-Public/blob/main/docs/validation-status.md).
+Physical validation, authenticated enrollment/access, production signing, and
+final store/privacy/support requirements remain before public launch. No
+subscription, release date, or new production firmware release is announced.
+
 ## Hardware portfolio
 
 Kyntex includes a fabricated custom NINA-B302/nRF52 PCB, designed in KiCad and
@@ -69,8 +84,9 @@ Public repositories contain deliberately selected, non-proprietary material.
 ## Project status
 
 Kyntex is an active engineering prototype being driven toward a real product.
-The software stack works end to end today, including signed Bluetooth firmware
-updates. Hardware refinement and multi-subject metric validation remain active
+Development builds include signed Bluetooth firmware updates, with remaining
+release requirements documented in the validation summary. Hardware refinement
+and multi-subject metric validation remain active
 work and are documented as such rather than implied to be finished.
 
 Kyntex is not a medical device and is not intended to diagnose, treat, prevent,
