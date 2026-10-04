@@ -1,6 +1,6 @@
 # Kyntex Privacy Policy
 
-Effective date: September 22, 2026
+Effective date: October 3, 2026
 
 Kyntex is designed as a local-first companion for the Kyntex Band. The Kyntex
 iOS app does not require an account and does not upload workout information to
@@ -22,6 +22,18 @@ Kyntex metrics, and display workout history. Kyntex does not sell this
 information, use it for advertising, or transmit it to a Kyntex account or
 analytics service.
 
+The app uses canonical history and recovery files to preserve completed
+workouts and recover interrupted saves. Recent summaries are limited to 50;
+lifetime totals are maintained separately. Raw or partial recordings and
+former-athlete snapshots can remain according to app features and cleanup
+state. Removing a visible profile or summary should not be interpreted as
+deleting every previously exported or backed-up copy.
+
+The sample walkthrough uses simulated data isolated from real workout history
+and does not connect to the band. The separate public browser demo stores
+synthetic summaries in browser storage; raw demo samples remain in memory and
+are not retained after reload. Browser history is limited to 50 summaries.
+
 Data stored by iOS may be included in device backups according to the user's
 Apple and device-backup settings. Apple processes App Store, device, and
 diagnostic information under Apple's own privacy policies.
@@ -32,16 +44,33 @@ The app uses Bluetooth to discover, connect to, configure, and receive workout
 telemetry from a nearby Kyntex Band. Bluetooth data is processed on the user's
 device for the app's core functionality.
 
+## Firmware downloads and support
+
+Firmware checks and package downloads contact GitHub-hosted endpoints. Those
+providers receive request metadata under their own policies. This does not
+upload workout recordings to Kyntex. Do not interpret local-first storage as
+meaning the app never makes a network request.
+
+If you voluntarily contact support or send a recording, your message and any
+attachment leave the app and are handled by the chosen email/support provider.
+Public GitHub issues are visible to other people. Do not include health data,
+private recordings, credentials, or sensitive device information in them.
+
 ## Sharing and deletion
 
 Kyntex does not share locally stored workout information with third parties.
 If a user deliberately exports or shares information through an Apple system
 feature, the destination selected by the user controls the resulting copy.
+Live Activity information can be visible on the Lock Screen according to device
+settings and may be seen by someone with access to that screen.
 
 Individual sessions and athlete profiles can be removed in the app. All local
 Kyntex data can be permanently removed through **Settings & About > Delete All
 Local Data**. Deleting the app also removes its local app container, subject to
-the user's device-backup settings.
+the user's device-backup settings. Deletion inside the app does not recall
+exports, support attachments, recipient copies, or existing device backups.
+If a save or cleanup error is shown, follow the app's recovery/cleanup status
+rather than assuming the operation completed.
 
 ## Children
 
