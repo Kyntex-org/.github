@@ -2,33 +2,26 @@
   <img src="https://raw.githubusercontent.com/Kyntex-org/.github/main/profile/assets/kyntex-logo.jpg" alt="Kyntex" width="440">
 </p>
 
-Kyntex is a wearable-sensing prototype for motion, band fit, and workout
-history. The engineering focuses on explicit session state, visible data
-quality, and recording that does not depend on a phone connection.
+# Kyntex
 
-Created by [Ben Harris](https://github.com/BenHarris11), **co-founder and sole
-engineer**, with work spanning firmware, Bluetooth protocols, native and browser
-software, and hardware prototyping.
+### Understand how you move.
+
+At Kyntex, we’re developing wearable technology to help athletes and their support teams better understand the physical demands of training.
+
+How hard a workout feels doesn’t tell the whole story of the load your body experiences. Activities that feel equally demanding can place very different physical loads on the body.
+
+Our goal is to use movement data to help athletes understand loading patterns across workouts, giving them and their support teams more context for training and recovery decisions.
+
+## What we’re building
+
+A wearable band that captures movement during training, paired with software for reviewing patterns across workouts.
+
+The Kyntex band is currently a **working prototype**, with hardware refinement and real-world validation in progress.
 
 ## Explore the engineering
 
-[**Open the public engineering portfolio**](https://github.com/Kyntex-org/Kyntex-Technical-Public)
-for the system diagram, runnable C examples, synthetic dashboard, three firmware
-case studies, hardware revision history, and dated validation evidence.
-
+[**Open the public engineering portfolio**](https://github.com/Kyntex-org/Kyntex-Technical-Public) for the system diagram, runnable C examples, synthetic dashboard, firmware case studies, and validation evidence.
 - [Five-minute reviewer guide](https://github.com/Kyntex-org/Kyntex-Technical-Public/blob/main/docs/reviewer-guide.md)
 - [Architecture](https://github.com/Kyntex-org/Kyntex-Technical-Public/blob/main/docs/system-architecture.md)
-- [Evidence and limitations](https://github.com/Kyntex-org/Kyntex-Technical-Public/blob/main/docs/validation-status.md)
+- [Validation Evidence](https://github.com/Kyntex-org/Kyntex-Technical-Public/blob/main/docs/validation-status.md)
 
-## Prototype status
-
-The current development platform is Nordic nRF54L15/Zephyr with a native iOS
-companion and browser engineering tools. The iOS experience stores workouts
-locally without a Kyntex account. Device photos, app screenshots, a real-device
-video, and a personal debugging narrative are explicitly marked as placeholders
-in the portfolio. The browser demo uses synthetic data.
-
-Development source remains private. Physical validation and product-release
-requirements remain separate from host test results. Tendon-response research
-is exploratory. Kyntex is not a medical device and is not intended to diagnose,
-treat, prevent, or predict injury.
