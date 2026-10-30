@@ -21,6 +21,7 @@ The Kyntex band is currently a **working prototype**, with hardware refinement a
 ## Explore the engineering
 
 [**Open the public engineering portfolio**](https://github.com/Kyntex-org/Kyntex-Technical-Public) for the system diagram, runnable C examples, synthetic dashboard, firmware case studies, and validation evidence.
+
 - [Five-minute reviewer guide](https://github.com/Kyntex-org/Kyntex-Technical-Public/blob/main/docs/reviewer-guide.md)
 - [Architecture](https://github.com/Kyntex-org/Kyntex-Technical-Public/blob/main/docs/system-architecture.md)
 - [Validation Evidence](https://github.com/Kyntex-org/Kyntex-Technical-Public/blob/main/docs/validation-status.md)
