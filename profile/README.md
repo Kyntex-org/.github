@@ -2,6 +2,7 @@
   <img src="https://raw.githubusercontent.com/Kyntex-org/.github/main/profile/assets/kyntex-logo.jpg" alt="Kyntex" width="440">
 </p>
 
+
 **Built and maintained by [Ben Harris](https://www.linkedin.com/in/benjaharris/), co-founder and CTO.**
 
 ### Understand how you move.
