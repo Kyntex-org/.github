@@ -32,4 +32,4 @@ The Kyntex band is currently a **working prototype**, with hardware refinement a
 
 Current engineering work remains private to protect intellectual property; this page is a public snapshot. For more information, contact [kyntexsupport@gmail.com](mailto:kyntexsupport@gmail.com).
 
-**Disclaimer: **This product is not a medical device and is not intended to diagnose, treat, cure, or prevent any disease.
+**Disclaimer: ** This product is not a medical device and is not intended to diagnose, treat, cure, or prevent any disease.
