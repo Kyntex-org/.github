@@ -4,5 +4,5 @@ contact_links:
     url: https://github.com/Kyntex-org/.github/blob/main/SECURITY.md
     about: Report suspected vulnerabilities privately; do not open a public issue.
   - name: Project overview
-    url: https://github.com/Kyntex-org/Kyntex
-    about: Read the current project scope and development status.
+    url: https://github.com/Kyntex-org
+    about: Read the company overview and follow the engineering links.
