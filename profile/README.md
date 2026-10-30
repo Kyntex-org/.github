@@ -24,3 +24,6 @@ The Kyntex band is currently a **working prototype**, with hardware refinement a
 - [Architecture](https://github.com/Kyntex-org/Kyntex-Technical-Public/blob/main/docs/system-architecture.md)
 - [Validation Evidence](https://github.com/Kyntex-org/Kyntex-Technical-Public/blob/main/docs/validation-status.md)
 
+---
+
+Maintained by Ben Harris. Current engineering work remains private to protect intellectual property; this page is a public snapshot. For more information, contact [kyntexsupport@gmail.com](mailto:kyntexsupport@gmail.com).
