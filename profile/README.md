@@ -2,8 +2,6 @@
   <img src="https://raw.githubusercontent.com/Kyntex-org/.github/main/profile/assets/kyntex-logo.jpg" alt="Kyntex" width="440">
 </p>
 
-# Kyntex
-
 ### Understand how you move.
 
 At Kyntex, we’re developing wearable technology to help athletes and their support teams better understand the physical demands of training.
