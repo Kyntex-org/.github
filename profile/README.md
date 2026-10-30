@@ -23,7 +23,7 @@ The Kyntex band is currently a **working prototype**, with hardware refinement a
 
 ## Explore the engineering
 
-[**Open the engineernig portfolio**](https://github.com/Kyntex-org/Kyntex-Technical-Public) to see how timed acquisition, recording, and BLE transport fit together.
+[**Open the engineering portfolio**](https://github.com/Kyntex-org/Kyntex-Technical-Public) to see how timed acquisition, recording, and BLE transport fit together.
 
 - [Five-minute reviewer guide](https://github.com/Kyntex-org/Kyntex-Technical-Public/blob/main/docs/reviewer-guide.md)
 - [Architecture](https://github.com/Kyntex-org/Kyntex-Technical-Public/blob/main/docs/system-architecture.md)
