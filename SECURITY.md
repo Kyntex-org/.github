@@ -18,9 +18,3 @@ private device recordings.
 
 Kyntex is an active prototype. Security fixes are applied to the latest code on
 the default branch; older prototypes and archived releases are not supported.
-
-## Scope
-
-Reports concerning firmware update integrity, BLE access control, data export,
-local session storage, or accidental disclosure of private implementation
-details are especially useful.
