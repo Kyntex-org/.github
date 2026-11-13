@@ -1,6 +1,6 @@
 # Kyntex Privacy Policy
 
-Effective date: October 3, 2026
+Effective date: November 13, 2026
 
 Kyntex is designed as a local-first companion for the Kyntex Band. The Kyntex
 iOS app does not require an account and does not upload workout information to
@@ -55,6 +55,13 @@ If you voluntarily contact support or send a recording, your message and any
 attachment leave the app and are handled by the chosen email/support provider.
 Public GitHub issues are visible to other people. Do not include health data,
 private recordings, credentials, or sensitive device information in them.
+
+For private support, privacy questions, or deletion requests, email
+[kyntexsupport@gmail.com](mailto:kyntexsupport@gmail.com). We use Gmail to
+handle these messages, with access limited to Kyntex's two founders. We delete
+support emails and attachments within 12 months after resolving a request,
+or earlier on request. Gmail may retain deleted messages in Trash for up to
+30 days. This support-email cleanup does not delete data stored on your device.
 
 ## Sharing and deletion
 
