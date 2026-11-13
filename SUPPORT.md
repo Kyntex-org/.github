@@ -8,6 +8,17 @@ Arduino/nRF52840 telemetry is retired; archived material is historical only.
 The public browser dashboard is a synthetic-data demo and does not connect to
 a band. No Kyntex account or subscription is required for the current app.
 
+## Contact Kyntex privately
+
+For app support, privacy questions, or deletion requests, email
+[kyntexsupport@gmail.com](mailto:kyntexsupport@gmail.com). Support email is
+handled through Gmail, with access limited to Kyntex's two founders.
+
+We delete support emails and attachments within 12 months after resolving a
+request, or earlier on request. Gmail may retain deleted messages in Trash for
+up to 30 days. Deleting a support message does not delete data stored on your
+device; use the app's local deletion controls for that.
+
 For reproducible software defects, open an issue in the relevant repository and
 use its bug-report template. For general project context, begin with the
 [Kyntex overview](https://github.com/Kyntex-org).
